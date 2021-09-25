@@ -1,7 +1,7 @@
 {
   "name": "localify-translate",
   "version": "1.0.0",
-  "description": "Localify json generation application for different locales, including extracting text for translation into different languages,  generate json file automatically based on soruce language to many languages.",
+  "description": "Localify json generation application for different locales, including extracting text for translation into different languages, generate json file automatically based on soruce language to many languages.",
   "main": "localify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,8 @@
     "internationalisation",
     "i18n",
     "google-sheet language",
-    "localify"
+    "localify",
+    "automate-loacle-sheet"
   ],
   "author": "Arul Antony",
   "license": "MIT",
