@@ -1,5 +1,5 @@
 {
-  "name": "Localify",
+  "name": "localify",
   "version": "1.0.0",
   "description": "Localify json generation application for different locales, including extracting text for translation into different languages, and formatting data for particular locales.generate json file automatically based on soruce language to many languages",
   "main": "localify.js",
