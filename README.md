@@ -3,11 +3,11 @@ Localify json generation application for different locales, including extracting
 
 ##  Quickstart
 # First, install the library:
-> npm install --localify-json-language-generation
+> npm install --localify-translate
 
 or
 
-> yarn add localify-json-language-generation
+> yarn add localify-translate
 
 ## Second, Turn on the Google Sheets API:
 - Use this https://console.cloud.google.com/flows/enableapi?apiid=sheets.googleapis.com to create or select a project in the Google Developers Console and automatically turn on the API. Click Continue,  then Go to credentials.
@@ -22,7 +22,7 @@ or
 
 ## Finally, Use the library:
 ``` 
-const localify = require('localify-json-language-generation');
+const localify = require('localify-translate');
 
 const data= {
     "header": {
