@@ -54,3 +54,52 @@ const private_key = "<private_key>"
 const lan = ["ja", "de", "zh"] // or const lan = "en";
 localify(client_email, private_key, spreadSheetId, lan, data);
 ```
+## Input 
+``` {
+    "header": {
+      "title": "Login",
+      "message": " Please login to your account"
+    },
+    "form": {
+      "input": {
+        "username": {
+          "placeholderName": "Username",
+          "onInvalid": {
+            "message": "Username is required"
+          }
+        },
+        "password": {
+          "placeholderName": "Password",
+          "onInvalid": {
+            "message": "Password is required"
+          }
+        }
+      }
+     
+    }
+  }
+  ```
+  ## Output convert it into desired language ex(Japanes)
+  ``` {
+    "header": {
+        "title": "ログイン",
+        "message": " アカウントにログインしてください"
+    },
+    "form": {
+        "input": {
+            "username": {
+                "placeholderName": "ユーザー名",
+                "onInvalid": {
+                    "message": "ユーザー名が必要です"
+                }
+            },
+            "password": {
+                "placeholderName": "パスワード",
+                "onInvalid": {
+                    "message": "パスワードが必要です"
+                }
+            }
+        }
+    }
+}
+```
