@@ -1,7 +1,7 @@
 {
   "name": "localify",
   "version": "1.0.1",
-  "description": "Localify json generation application for different locales, including extracting text for translation into different languages, and formatting data for particular locales.generate json file automatically based on soruce language to many languages",
+  "description": "Localify json generation application for different locales, including extracting text for translation into different languages, and formatting data for particular locales.generate json file automatically based on soruce language to many languages.",
   "main": "localify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
