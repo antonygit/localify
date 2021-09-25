@@ -1,12 +1,17 @@
 {
   "name": "localify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Localify json generation application for different locales, including extracting text for translation into different languages, and formatting data for particular locales.generate json file automatically based on soruce language to many languages",
   "main": "localify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["internationalisation","i18n","google-sheet language","localify"],
+  "keywords": [
+    "internationalisation",
+    "i18n",
+    "google-sheet language",
+    "localify"
+  ],
   "author": "Arul Antony",
   "license": "MIT",
   "dependencies": {
@@ -18,5 +23,4 @@
     "type": "git",
     "url": "git+https://github.com/antonygit/localify.git"
   }
-  
 }
