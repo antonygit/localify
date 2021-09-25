@@ -79,7 +79,7 @@ localify(client_email, private_key, spreadSheetId, lan, data);
     }
   }
   ```
-  ## Output convert it into desired language ex(Japanes)
+  ## Output convert it into desired language Ex : (Japanese)
   ``` {
     "header": {
         "title": "ログイン",
